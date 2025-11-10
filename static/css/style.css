@@ -1,0 +1,89 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    background-color:#1f1f1f;
+    color: white;
+    padding: 20px;
+}
+a{
+    color: white;
+}
+.button-nav {
+    background-color:rgb(233, 185, 122);
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.nav {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;       
+  justify-content: space-evenly; 
+  padding: 20px;
+  margin: 20px;       
+                
+
+}
+
+.card {
+  display: flex;
+  flex-direction: row;             
+  justify-content: space-between;  
+  align-items: center;            
+  padding: 30px;
+  margin: 20px;
+  background-color:rgb(231, 235, 238);
+  border-radius: 10px;
+   
+}
+.card-button {
+    background-color:rgb(65, 238, 108);
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+
+}
+
+.button-footer {
+    background-color:rgb(121, 172, 224);
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+form {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-top:20px;
+}
+
+footer {
+    background-color:#1f1f1f;
+    color:white;
+    text-align:center;
+    padding: 30px;
+}
+.music {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.mail{
+    color:rgb(10, 141, 141)
+}

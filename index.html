@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Autora del documento -->
+    <meta name="author" content="emariana.cohen@gmail.com">
+    <!-- Palabras claves -->
+    <meta name="keywords" content="discos, música">
+    <!-- Descripción del documento -->
+    <meta name="description" content="Discos de música">
+    <!-- Título del proyecto -->
+    <title>DiscoStore</title>
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    
+    <nav>
+        <div class="nav">
+            <img src="static/images/music-logo.png" alt="DiscoStore" width="50px">
+            <h1>Disco Store</h1>
+        </div>
+        <div class="nav">
+            <a href="#">Tiendas</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Contacto</a>
+            <button class="button-nav" type="button"><strong>Comprar</strong></button>
+        </div>
+    </nav>
+        <div class="contenedor">
+            <!-- tarjeta 1 -->
+            <div class="card">
+                <img src="static/images/thriller.png" alt="Thriller" width="200px">
+                <div class="text">
+                    <h2>Thriller</h2>
+                    <p><em>Michael Jackson</em></p>
+                    <p>Es el sexto álbum de estudio del cantante estadounidense Michael Jackson.</p>
+                    <p>Fue lanzado el 30 de noviembre de 1982 por Epic Records.</p>
+                </div>
+                <div>
+                    <button  class="card-button" type="button"><strong>Me gusta</strong></button>
+                    <p>36 me gusta (s)</p>
+                </div>
+            </div>
+            <!-- tarjeta 2 -->
+            <div class="card">
+                <img src="static/images/nonagon-infinity.png" alt="nonagon-infinity" width="200px">
+                <div class="text">
+                    <h2>Nonagon Infinity</h2>
+                    <p><em>King Gizard and The Lizard Wizard</em></p>
+                    <p>Es el octavo álbum de estudio de la banda australiana de rock psicodélico King</p>
+                    <p>Gizzard & the Lizard Wizard. Fue lanzado el 29 de abril de 2016 por ATO</p>
+                    <p> Records.</p>
+                </div>
+                <div>
+                    <button class="card-button" type="button"><strong>Me gusta</strong></button>
+                    <p>21 me gusta (s)</p>
+                </div> 
+            </div>
+            <!-- tarjeta 3 -->
+            <div class="card">
+                <img src="static/images/head-hunters.png" alt="head-hunters" width="200px">
+                <div class="text">
+                    <h2>Head Hunters</h2>
+                    <p>Herbie Hancock</p>
+                    <p>Es el duodécimo álbum de estudio del músico estadounidense de jazz Herbie</p>
+                    <p>Hancock. Fue lanzado el 13 de octubre de 1973 por Columbia Records.</p>
+                </div>
+                <div>
+                    <button class="card-button" type="button"><strong>Me gusta</strong></button>
+                    <p>12 me gusta (s)</p>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        <form action="" method="">
+            <div>
+                <label for="formato">Buscar por formato: </label>
+                <div class="music">
+                <img src="static/images/audio.png" alt="audio" width="20px">
+                    <select id="formato" name="formato" >
+                        <option value="todos">Todos</option>
+                        <option value="rock">Rock</option>
+                        <option value="blues">Blues</option>
+                        <option value="pop">Pop</option>
+                        <option value="latin">Latin</option>
+                        <option value="jazz">Jazz</option>
+                        <option value="reggaeton">Reggaeton</option>
+                        <option value="hip-hop">Hip Hop</option>
+                        <option value="rockandroll">Rock and Roll</option>
+                    </select>
+                </div>   
+            </div>
+            <div>
+                <label for="genero-musical">Buscar por género musical: </label>
+                <div class="music">
+                <img src="static/images/music-note.png" alt="music-note" width="20px">
+                <input type="genero-musical" id="genero-musical" name="busqueda" placeholder="Pop, Rock Jazz y más"> 
+                </div>
+            </div>
+            <button class="button-footer" type="button"><strong>Buscar</strong></button>
+            
+        </form>
+        <p>@ 2025 Skillnest / Desarrollado por <a class= mail href="mailto:emariana.cohen@gmail.com"> Emariana Cohen</a>  </p>
+    </footer>
+    <!-- Javascript -->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
